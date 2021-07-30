@@ -12,6 +12,7 @@
 #include "pins.h"
 #include "tmc2130.h"
 
+
 int8_t filament_type[EXTRUDERS] = {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1};
 static bool isIdlerParked = false;
 
