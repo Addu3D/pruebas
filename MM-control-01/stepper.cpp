@@ -16,7 +16,7 @@
 int8_t filament_type[EXTRUDERS] = {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1};
 static bool isIdlerParked = false;
 
-static const int selector_steps_after_homing = -3700;
+static const int selector_steps_after_homing = -6290;
 static const int idler_steps_after_homing = -180;
 
 static const int selector_steps = 2790/4;
